@@ -1,6 +1,6 @@
 # Architecture and Agent execution
 
-THE MATCH LAB combines a frozen position predictor with two Azure model roles and a synchronized browser replay. The two roles use separate requests to one configured GPT-5-mini deployment.
+MatchLab Football AI Commentary combines a frozen position predictor with two Azure model roles and a synchronized browser replay. The two roles use separate requests to one configured GPT-5-mini deployment.
 
 ## Evidence and handoff
 

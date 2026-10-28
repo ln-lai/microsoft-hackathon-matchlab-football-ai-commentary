@@ -1,14 +1,16 @@
-# THE MATCH LAB
+# MatchLab Football AI Commentary
+
+This project is a Microsoft hackathon entry, not an official Microsoft product.
 
 **Discover the moment. See what may happen next. Hear the story.**
 
-THE MATCH LAB is a browser-based football commentary and analysis prototype for fans and coaches. It finds changes in player spacing, turns them into short highlights, and combines continuous replay, player annotations, a next-second position forecast, and synchronized AI-generated speech.
+MatchLab Football AI Commentary is a browser-based football commentary and analysis prototype for fans and coaches. It finds changes in player spacing, turns them into short highlights, and combines continuous replay, player annotations, a next-second position forecast, and synchronized AI-generated speech.
 
 **[Open the live demo](https://nextsecond-football-27oct26.azurewebsites.net/)** · [Run locally](RUNNING.md) · [Project pitch](PROJECT_PITCH.md) · [Validation](VALIDATION.md)
 
-![THE MATCH LAB showing a discovered highlight, player focus, commentary and evidence](docs/product-preview.png)
+![MatchLab Football AI Commentary showing a discovered highlight, player focus, commentary and evidence](docs/product-preview.png)
 
-**Current public release: 1.6.0**, with Fan/Coach views and visible Analyst/Reviewer status.
+**Current public release: 1.6.1**, with Fan/Coach views and visible Analyst/Reviewer status.
 
 ## Try the product
 
@@ -24,7 +26,7 @@ The forecast ring shows a player's estimated position one second ahead. The reco
 
 ## The problem we address
 
-Football movement can be difficult to interpret from a pitch full of dots or a table of statistics. Viewers need to know where to look, why a change matters, and what might happen next. THE MATCH LAB places that explanation beside the moving players and lets each viewer choose whom to follow.
+Football movement can be difficult to interpret from a pitch full of dots or a table of statistics. Viewers need to know where to look, why a change matters, and what might happen next. MatchLab Football AI Commentary places that explanation beside the moving players and lets each viewer choose whom to follow.
 
 For example, a player may have just gained space while the model expects that gap to narrow next. The interface separates **what just happened**, **what was measured at the highlight**, and **what the model expects next**, so these statements remain understandable together.
 
@@ -64,7 +66,7 @@ Speech is **pre-generated AI commentary**, not live voice generation. The curren
 
 ## Run and configure
 
-Clone [this repository](https://github.com/ln-lai/the-match-lab) and follow [RUNNING.md](RUNNING.md). Python 3.12 and the dependencies in `demo/requirements-dev.txt` are used. Full local inference needs the exact checkpoint specified there; source review and the mocked Agent tests work without it. No frontend build is required.
+Clone [this repository](https://github.com/ln-lai/microsoft-hackathon-matchlab-football-ai-commentary) and follow [RUNNING.md](RUNNING.md). Python 3.12 and the dependencies in `demo/requirements-dev.txt` are used. Full local inference needs the exact checkpoint specified there; source review and the mocked Agent tests work without it. No frontend build is required.
 
 Both Agent roles share `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_API_KEY` and `AZURE_OPENAI_DEPLOYMENT`. TTS uses `AZURE_TTS_DEPLOYMENT`. `.env.example` contains placeholders only; configuration is read from process environment variables. No Azure subscription, secret, training data or private checkpoint is published in this repository.
 

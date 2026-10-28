@@ -1,6 +1,8 @@
 # Release validation
 
-Release **1.6.0** adds Fan/Coach presentation and two Agent roles. Its current source passed **238 backend tests**, including nine focused Reviewer cases, and nine controlled playback checks on 28 October 2026. The two roles also completed two recorded uncached Azure runs (one Fan and one Coach); see [proof records](docs/two-agent-proof.json). These are integration examples, not an accuracy benchmark.
+Release **1.6.1** updates the product name to **MatchLab Football AI Commentary** in the page, accessible home link, footer and API metadata. Playback JavaScript, CSS, model weights, Agent logic and rate limits are unchanged. The checks below retain their original release and timestamps.
+
+Release **1.6.0** adds Fan/Coach presentation and two Agent roles. The 1.6.0 source passed **238 backend tests**, including nine focused Reviewer cases, and nine controlled playback checks on 28 October 2026. The two roles also completed two recorded uncached Azure runs (one Fan and one Coach); see [proof records](docs/two-agent-proof.json). These are integration examples, not an accuracy benchmark.
 
 The following browser and audio checks established the preceding 1.5.0 replay baseline. They are not a claim that every browser check was rerun after the presentation update. The [hosted demo](https://nextsecond-football-27oct26.azurewebsites.net/) returned HTTP 200 with the model loaded in a read-only health check at 04:24 UTC that day.
 

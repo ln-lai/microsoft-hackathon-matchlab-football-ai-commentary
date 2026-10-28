@@ -1,6 +1,6 @@
-# Running THE MATCH LAB
+# Running MatchLab Football AI Commentary
 
-This guide applies to the version 1.6.0 source package. Run commands from the repository root, which contains `model.py` and `demo/`.
+This guide applies to the version 1.6.1 source package. Run commands from the repository root, which contains `model.py` and `demo/`.
 
 **The trained checkpoint is not included.** This repository supports source review and checkpoint-free service tests, but the complete web application requires the compatible frozen checkpoint described below. A public download is not provided in this package. To try the working product without local setup, use the [Azure-hosted demonstration](https://nextsecond-football-27oct26.azurewebsites.net/).
 
@@ -11,8 +11,8 @@ The package also excludes original tracking data, pre-generated commentary audio
 Use Python 3.12. The application runs inference on CPU; CUDA, Node.js, an Azure SDK and a frontend build step are not required.
 
 ```sh
-git clone https://github.com/ln-lai/the-match-lab.git
-cd the-match-lab
+git clone https://github.com/ln-lai/microsoft-hackathon-matchlab-football-ai-commentary.git
+cd microsoft-hackathon-matchlab-football-ai-commentary
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r demo/requirements-dev.txt
 .venv/bin/python -m pip check

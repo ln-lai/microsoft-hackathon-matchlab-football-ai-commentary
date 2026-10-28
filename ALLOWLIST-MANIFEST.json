@@ -1,8 +1,8 @@
 {
-  "package": "THE MATCH LAB submission source review",
-  "release": "1.6.0",
-  "prepared_at_utc": "2026-10-28T04:59:29.343103+00:00",
-  "repository_url": "https://github.com/ln-lai/the-match-lab",
+  "package": "MatchLab Football AI Commentary submission source review",
+  "release": "1.6.1",
+  "prepared_at_utc": "2026-10-28T05:18:28.404077+00:00",
+  "repository_url": "https://github.com/ln-lai/microsoft-hackathon-matchlab-football-ai-commentary",
   "checkpoint_included": false,
   "files": [
     {
@@ -22,8 +22,8 @@
     },
     {
       "path": "demo/backend.py",
-      "bytes": 23209,
-      "sha256": "4af5badc862a7f504768a595835f589e5deb3f2689da9eb8c09bcdabe332f340"
+      "bytes": 23195,
+      "sha256": "11b112e5a350edb174e69207036edc62d1b758176d00350ceaaa3ab487663993"
     },
     {
       "path": "demo/synthetic.py",
@@ -42,8 +42,8 @@
     },
     {
       "path": "demo/web/index.html",
-      "bytes": 15160,
-      "sha256": "879e18bbd1158ac0389145da5202b99a3cb08d94f5ae11158cf587199c02f124"
+      "bytes": 15167,
+      "sha256": "5b989ff68d31a47bac14f36b4fce990bb1d5f10bc77f3bff4584e397a7fcd89b"
     },
     {
       "path": "demo/web/app.js",
@@ -97,23 +97,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 9240,
-      "sha256": "858e4eb9e28c838064e9581de40ccd08e6fd77b979dd5da68f67d7c0554da837"
+      "bytes": 9431,
+      "sha256": "aa265605c1e762329e710d3d747ca15b1cc9ac8086c2b0d7d03e05d5b79f5819"
     },
     {
       "path": "RUNNING.md",
-      "bytes": 10741,
-      "sha256": "c2721cb31612390ba551af8a5c4461c7bb58cb0cd7fac8d5d640f4d56a638d05"
+      "bytes": 10835,
+      "sha256": "bb25b6f8321a84dfadb8482c0d75df97e296fd190b37018a435cbd4410e610ef"
     },
     {
       "path": "PROJECT_PITCH.md",
-      "bytes": 3094,
-      "sha256": "cfbeebf1222ca3ac21e331d0e47ca2c7e160a06ded3dfd4d52f0fe73ced4f081"
+      "bytes": 3222,
+      "sha256": "6aa7e94147fde024c90f0af26d6b8fce0b701b6511259d9d7706aea1a3f96b7c"
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 3184,
-      "sha256": "bde9205cd70f519f98bf82e43758f870c28bcdf93005a2b5bc7f2101a3fe2a16"
+      "bytes": 3472,
+      "sha256": "358a9671c7b4177134589a538f3440bf3ce92341206218c8341991a7acd825f2"
     },
     {
       "path": "LICENSE-NOTICE.md",
@@ -132,8 +132,8 @@
     },
     {
       "path": "ARCHITECTURE.md",
-      "bytes": 4467,
-      "sha256": "509260b1e687e195f1fdd16f0b74b12df9529440e4f9364438fc41837a6e5ff8"
+      "bytes": 4485,
+      "sha256": "ccff2daf5621818b2ac72385d90429afd91936ec46e7fe88fe6234c146981f14"
     },
     {
       "path": "docs/two-agent-proof.json",

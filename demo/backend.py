@@ -223,7 +223,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title="THE MATCH LAB — Football Match Intelligence", version="1.6.0", lifespan=lifespan)
+app = FastAPI(title="MatchLab Football AI Commentary", version="1.6.1", lifespan=lifespan)
 
 
 @app.get("/api/health")
