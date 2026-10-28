@@ -1,0 +1,178 @@
+[
+  {
+    "provider": "Microsoft Foundry / Azure OpenAI",
+    "mode": "azure",
+    "text": "Home 9 just opened about 3 metres of space to the nearest opponent. The model expects that gap to shrink a little over the next second.",
+    "stages": {
+      "observed": "Home 9 just opened about 3 metres of space to the nearest opponent.",
+      "current": "At this moment, Home 9's nearest opponent is about 8 metres away.",
+      "forecast": "The model expects that gap to shrink a little over the next second."
+    },
+    "observed_available": true,
+    "limitation": "This is a one-second model projection on synthetic data. Nearest-opponent distance alone does not establish a safe pass, offside status or scoring chance.",
+    "content_version": "temporal-evidence-v3",
+    "evidence": {
+      "match_id": "space-run",
+      "anchor_frame": 352,
+      "anchor_time_s": 14.08,
+      "target_time_s": 15.08,
+      "synthetic": true,
+      "player_id": "Home_9",
+      "team": "home",
+      "current_nearest_opponent_m": 7.796044110574931,
+      "predicted_nearest_opponent_m": 7.314885989324837,
+      "predicted_displacement_m": 3.1945135168063183,
+      "model_name": "ST-GNN + TCN",
+      "checkpoint_sha256": "4ecea9ccfe5c632afe5da0be7e76150ca31ea85142fac0dd0d8aa0cea6233923",
+      "highlight": {
+        "id": "space-run-352-8",
+        "kind": "space",
+        "analysis_mode": "retrospective",
+        "window_start_s": 13.08,
+        "window_end_s": 14.08,
+        "previous_nearest_opponent_m": 4.503677379270125,
+        "current_nearest_opponent_m": 7.796043033251916,
+        "observed_gap_change_m": 3.2923656539817907,
+        "observed_displacement_m": 3.7190441291299603,
+        "selection_score": 4.594031099177277
+      }
+    },
+    "fact_ids": [
+      "observed",
+      "separation"
+    ],
+    "grounded": true,
+    "grounding_method": "server-rendered statements from computed numerical evidence",
+    "audience": "fan",
+    "language": "en",
+    "cached": false,
+    "reason": null,
+    "notice": "Microsoft service selected the facts and their order; numbers are computed locally.",
+    "agent_trace": {
+      "run_id": "5809652fde85414ba3eb29dc80ce7162",
+      "architecture": "Two LLM roles with a fixed handoff",
+      "analyst": {
+        "role": "Match Analyst Agent",
+        "status": "completed",
+        "cached": false,
+        "fact_ids": [
+          "observed",
+          "separation"
+        ],
+        "elapsed_ms": 1822,
+        "reason": null
+      },
+      "reviewer": {
+        "role": "Commentary Reviewer Agent",
+        "status": "passed",
+        "cached": false,
+        "checked_at_unix": 1793162931,
+        "checks": [
+          "player_correct",
+          "numbers_correct",
+          "time_correct",
+          "forecast_labeled"
+        ],
+        "elapsed_ms": 1525,
+        "script_sha256": "82f68bd24767ccacb10499847e07044c7e85b4910647ec02ad28f8d4577faa83",
+        "evidence_sha256": "6296bc72e02f1d4e765819098dced0e27277a8ee8d1303d0a289c3536b9294c3"
+      },
+      "scope": {
+        "match_id": "space-run",
+        "player_id": "Home_9",
+        "anchor_frame": 352,
+        "anchor_time_s": 14.08,
+        "target_time_s": 15.08
+      }
+    },
+    "reviewed_script": "Look at Home nine, space just opened up! The model predicts a tighter gap next second."
+  },
+  {
+    "provider": "Microsoft Foundry / Azure OpenAI",
+    "mode": "azure",
+    "text": "Observed from t=13.08 to 14.08 s: Home 9's nearest-opponent gap changed from 4.50 m to 7.80 m (+3.29 m). For Home 9, minimum distance to all opposing players decreases from 7.80 m to 7.31 m at +1 s (change -0.48 m), using both teams' model-predicted positions.",
+    "stages": {
+      "observed": "Observed from t=13.08 to 14.08 s: Home 9's nearest-opponent gap changed from 4.50 m to 7.80 m (+3.29 m).",
+      "current": "At this moment, Home 9's nearest opponent is 7.80 m away.",
+      "forecast": "For Home 9, minimum distance to all opposing players decreases from 7.80 m to 7.31 m at +1 s (change -0.48 m), using both teams' model-predicted positions."
+    },
+    "observed_available": true,
+    "limitation": "This is a one-second model projection on synthetic data. Nearest-opponent distance alone does not establish a safe pass, offside status or scoring chance.",
+    "content_version": "temporal-evidence-v3",
+    "evidence": {
+      "match_id": "space-run",
+      "anchor_frame": 352,
+      "anchor_time_s": 14.08,
+      "target_time_s": 15.08,
+      "synthetic": true,
+      "player_id": "Home_9",
+      "team": "home",
+      "current_nearest_opponent_m": 7.796044110574931,
+      "predicted_nearest_opponent_m": 7.314885989324837,
+      "predicted_displacement_m": 3.1945135168063183,
+      "model_name": "ST-GNN + TCN",
+      "checkpoint_sha256": "4ecea9ccfe5c632afe5da0be7e76150ca31ea85142fac0dd0d8aa0cea6233923",
+      "highlight": {
+        "id": "space-run-352-8",
+        "kind": "space",
+        "analysis_mode": "retrospective",
+        "window_start_s": 13.08,
+        "window_end_s": 14.08,
+        "previous_nearest_opponent_m": 4.503677379270125,
+        "current_nearest_opponent_m": 7.796043033251916,
+        "observed_gap_change_m": 3.2923656539817907,
+        "observed_displacement_m": 3.7190441291299603,
+        "selection_score": 4.594031099177277
+      }
+    },
+    "fact_ids": [
+      "observed",
+      "separation"
+    ],
+    "grounded": true,
+    "grounding_method": "server-rendered statements from computed numerical evidence",
+    "audience": "analyst",
+    "language": "en",
+    "cached": false,
+    "reason": null,
+    "notice": "Microsoft service selected the facts and their order; numbers are computed locally.",
+    "agent_trace": {
+      "run_id": "538687dc02c446818f588c51da52a6c2",
+      "architecture": "Two LLM roles with a fixed handoff",
+      "analyst": {
+        "role": "Match Analyst Agent",
+        "status": "completed",
+        "cached": false,
+        "fact_ids": [
+          "observed",
+          "separation"
+        ],
+        "elapsed_ms": 1735,
+        "reason": null
+      },
+      "reviewer": {
+        "role": "Commentary Reviewer Agent",
+        "status": "passed",
+        "cached": false,
+        "checked_at_unix": 1793162934,
+        "checks": [
+          "player_correct",
+          "numbers_correct",
+          "time_correct",
+          "forecast_labeled"
+        ],
+        "elapsed_ms": 1577,
+        "script_sha256": "1f57c4da80eba7f2a476a4d655b677f6d76c12f389c1fc0cecbf073a03578fc4",
+        "evidence_sha256": "f0cf117ef9f534c2fb2478097e922215f082e712ab7396fafae2fb2bdbb23ca8"
+      },
+      "scope": {
+        "match_id": "space-run",
+        "player_id": "Home_9",
+        "anchor_frame": 352,
+        "anchor_time_s": 14.08,
+        "target_time_s": 15.08
+      }
+    },
+    "reviewed_script": "Home nine. The gap grew by three point three metres. The model projects seven point three metres next second."
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "package": "THE MATCH LAB submission source review",
+  "release": "1.6.0",
+  "prepared_at_utc": "2026-10-28T04:59:29.343103+00:00",
+  "repository_url": "https://github.com/ln-lai/the-match-lab",
+  "checkpoint_included": false,
+  "files": [
+    {
+      "path": "model.py",
+      "bytes": 4262,
+      "sha256": "09f28a4675da56465f479d3afe2ff3e762b00b9896a8afb2789d42f8d66e8edd"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 2271,
+      "sha256": "c7d602581090f702a664eef6840eef4bb9feedaebe577c83fd70cd4c62bdda8a"
+    },
+    {
+      "path": "demo/__init__.py",
+      "bytes": 84,
+      "sha256": "631c398d0ef214681c4c43f247f1e0154c8902f890066271a629f2ad034f71ae"
+    },
+    {
+      "path": "demo/backend.py",
+      "bytes": 23209,
+      "sha256": "4af5badc862a7f504768a595835f589e5deb3f2689da9eb8c09bcdabe332f340"
+    },
+    {
+      "path": "demo/synthetic.py",
+      "bytes": 6171,
+      "sha256": "59fe907f805d41a24bf3244e424fc09ae760550394575b5b779e93b895205837"
+    },
+    {
+      "path": "demo/azure_insights.py",
+      "bytes": 21710,
+      "sha256": "9dc54320d0382eab0512be5df557bf835e5bc7d323607537fd9da74458d33746"
+    },
+    {
+      "path": "demo/commentary.py",
+      "bytes": 21775,
+      "sha256": "3741e62602927ebee13eda0021c31c2cd819a4576d0c2ec4808d46e1e0ad3bc1"
+    },
+    {
+      "path": "demo/web/index.html",
+      "bytes": 15160,
+      "sha256": "879e18bbd1158ac0389145da5202b99a3cb08d94f5ae11158cf587199c02f124"
+    },
+    {
+      "path": "demo/web/app.js",
+      "bytes": 71952,
+      "sha256": "82ab6d4cfbded3f42ced13d196aa121e074b571ac3b0f5ec9a782be9110ad376"
+    },
+    {
+      "path": "demo/web/styles.css",
+      "bytes": 47178,
+      "sha256": "25b6c4b5803317482bdd8109ea751fab171f5a785e3fec0c8b266f276b9a6568"
+    },
+    {
+      "path": "demo/requirements.txt",
+      "bytes": 60,
+      "sha256": "08637b4498ed8239b1e7dc676ba1d4f52a8f8f73f20c74c3c34ab8456166c455"
+    },
+    {
+      "path": "demo/requirements-dev.txt",
+      "bytes": 48,
+      "sha256": "da21b08f1bb33b76c738bb3733d898e23682a19a6ba742061c275df38b8d7958"
+    },
+    {
+      "path": "demo/test_backend.py",
+      "bytes": 13890,
+      "sha256": "29ed24c80a5e709e4bdec383ae4a2c53eb3cb55a29465b56cb7e33c889098c8d"
+    },
+    {
+      "path": "demo/test_azure_insights.py",
+      "bytes": 16389,
+      "sha256": "39760312bcf801ec82042d25bd15c32f01ed3c65b6dad3574026e26f4f86b35f"
+    },
+    {
+      "path": "demo/test_insight_api.py",
+      "bytes": 12172,
+      "sha256": "261a98e9aad8a5dad8b0b79a88f16f0803d5f70ed65a8a4afbf6cc83d34d62c7"
+    },
+    {
+      "path": "demo/test_commentary.py",
+      "bytes": 46440,
+      "sha256": "640e96978c073206703ced8c0a5fbd18a7315b603b8c12ece507fc48655eef18"
+    },
+    {
+      "path": "demo/reviewed_insights.py",
+      "bytes": 7664,
+      "sha256": "bc233081042b3065dbafb5288056004a81e617484c13e9c75c42747cfa3e5b80"
+    },
+    {
+      "path": "demo/test_reviewed_insights.py",
+      "bytes": 2978,
+      "sha256": "88e0d9fb34b812aa610281ab6e8957e7b93301e089fc5fccbf57d6ab20c50a21"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9240,
+      "sha256": "858e4eb9e28c838064e9581de40ccd08e6fd77b979dd5da68f67d7c0554da837"
+    },
+    {
+      "path": "RUNNING.md",
+      "bytes": 10741,
+      "sha256": "c2721cb31612390ba551af8a5c4461c7bb58cb0cd7fac8d5d640f4d56a638d05"
+    },
+    {
+      "path": "PROJECT_PITCH.md",
+      "bytes": 3094,
+      "sha256": "cfbeebf1222ca3ac21e331d0e47ca2c7e160a06ded3dfd4d52f0fe73ced4f081"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3184,
+      "sha256": "bde9205cd70f519f98bf82e43758f870c28bcdf93005a2b5bc7f2101a3fe2a16"
+    },
+    {
+      "path": "LICENSE-NOTICE.md",
+      "bytes": 1002,
+      "sha256": "a7f306ca8c16648567dcd9113211ff16bcaaab342810bde31ae025d11b22f52a"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 1131,
+      "sha256": "83952794a1a5fdeb545b8c97ba9f6635649f0c5481a96c30afb704e8177686c1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 212,
+      "sha256": "bb808f3ff9861cc60af78a404b8a1e0e47636b3345b3889fa4d6920b39c1d2fa"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 4467,
+      "sha256": "509260b1e687e195f1fdd16f0b74b12df9529440e4f9364438fc41837a6e5ff8"
+    },
+    {
+      "path": "docs/two-agent-proof.json",
+      "bytes": 6908,
+      "sha256": "bef701c7c5bda81ebeed166a7b879b3a68085e92ec8289c81ea1cc3c0a940510"
+    },
+    {
+      "path": "docs/product-preview.png",
+      "bytes": 128877,
+      "sha256": "6662e3fbbd1b479d87163d0a7064fb071fbfc31dba57e9afc5619b287c155fb2"
+    },
+    {
+      "path": "SOURCE-SCAN.json",
+      "bytes": 654,
+      "sha256": "966b865285468d7b7fb0509aba3353c0b26f5a1de016c7108d6d20aed7c1b0be"
+    }
+  ]
+}

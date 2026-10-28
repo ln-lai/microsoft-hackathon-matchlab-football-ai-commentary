@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "method": "Explicit source allowlist and text-pattern scan; source hashes recorded in manifest",
+  "rules": [
+    "private_key",
+    "github_token",
+    "openai_token",
+    "jwt",
+    "subscription_path",
+    "storage_secret",
+    "private_home",
+    "cloud_uuid"
+  ],
+  "findings": [],
+  "image_check": "Product-only screenshot visually inspected; no desktop, account, or credentials shown.",
+  "excludes": [
+    "credentials",
+    "trained checkpoint",
+    "training data",
+    "audio cache",
+    "private deployment records"
+  ],
+  "limitation": "Pattern scanning is not an exhaustive secret detector or a license review."
+}
